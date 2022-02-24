@@ -1,12 +1,29 @@
-.header {
-	padding: 2;
+body {
+	/* background-color: #b1d4e0; */
+	/*b1d4e0 d4f1f4 */
+
+	background-image: linear-gradient(to bottom right, #b1d4e0, #d4f1f4);
 }
 
-.section {
-	padding: 2;
+#foto {
+	border: black dashed;
 }
 
-.foot {
-	padding: 20;
-	margin: 20;
+#aboutMe {
+	color: white;
+	background-color: #145da0;
 }
+
+#icon-link {
+	color: black;
+}
+
+/* Box model: Divs & containers
+div {
+	border: chocolate dashed;
+}
+
+.container {
+	border: blue dashed;
+}
+*/
