@@ -1,11 +1,8 @@
 body {
-	/* background-color: #b1d4e0; */
-	/*b1d4e0 d4f1f4 */
-
-	background-image: linear-gradient(to bottom right, #b1d4e0, #d4f1f4);
+	background-color: #dff6ff;
 }
 
-#foto {
+#photo {
 	border: black dashed;
 }
 
@@ -18,12 +15,74 @@ body {
 	color: black;
 }
 
-/* Box model: Divs & containers
-div {
-	border: chocolate dashed;
+#grid {
+	margin: 1rem 1rem 0.5rem 1rem;
+	padding: 0.5rem 1rem 0.5rem 1rem;
 }
 
-.container {
-	border: blue dashed;
+/* Resposive text size */
+
+/* name */
+@media screen and (min-width: 500px) {
+	#name {
+		font-size: 5vw;
+	}
 }
-*/
+
+@media screen and (min-width: 1000px) {
+	#name {
+		font-size: 3.5vw;
+	}
+}
+
+/* titles */
+@media screen and (min-width: 500px) {
+	#titles {
+		font-size: 5vw;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	#titles {
+		font-size: 2.5vw;
+	}
+}
+
+/* subtitles */
+@media screen and (min-width: 500px) {
+	#subtitles {
+		font-size: 4vw;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	#subtitles {
+		font-size: 2vw;
+	}
+}
+
+/* txt */
+@media screen and (min-width: 500px) {
+	#text {
+		font-size: 3vw;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	#text {
+		font-size: 1.2vw;
+	}
+}
+
+/* buttons  */
+@media screen and (min-width: 500px) {
+	#grnBtn {
+		font-size: 4vw;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	#grnBtn {
+		font-size: 1.6vw;
+	}
+}
